@@ -22,6 +22,7 @@ body {
 /*framework*/
 
 header.header {
+    position: fixed;
     width: 100%;
     height: 80px;
     background-color: rgb(80, 79, 79);
@@ -96,6 +97,7 @@ nav.menu-mobile-aside {
         width: 40px;
     }
     nav.menu-mobile ul {
+        position: fixed;
         width: 100%;
         background-color: rgb(73, 133, 194);
         text-align: center;
